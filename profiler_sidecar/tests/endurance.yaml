@@ -1,0 +1,7 @@
+profile: true
+profile_memory: false
+profiler_level: 1
+runner_config:
+  sink_size: 1
+smoke_step_sleep: 0.5
+smoke_steps: 40

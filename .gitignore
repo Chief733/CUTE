@@ -1,0 +1,24 @@
+# Python caches
+**/__pycache__/
+*.py[cod]
+
+# Large generated training/profiling data
+/compile_cache/
+/traces/
+/profiler_sidecar/runs/
+/profiler_sidecar/research/rotation_probe*/
+/profiler_sidecar/research/native_build.json
+/profiler_sidecar/research/source_tree.json
+/benchmarks/20*/
+/fastanalyse/diagnosis_runs/
+/fastanalyse/fast_parse
+/fastanalyse/benchmark_*.json
+/fastanalyse/validation_*.json
+
+# py-spy experiments are intentionally deferred from the first repository import
+/pyspy_overhead/
+
+# Runtime logs and temporary files
+*.log
+*.tmp
+*.pid
